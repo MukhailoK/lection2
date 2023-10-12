@@ -23,13 +23,13 @@ public class Main {
             String email = scanner.nextLine();
             if (user.setEmail(email)) {
                 users.add(user);
-            }
-            try {
-                fileWriter = new FileWriter("data");
-                fileWriter.write(user.toString());
-                fileWriter.flush();
-            } catch (IOException e) {
-                throw new RuntimeException(e);
+                try {
+                    fileWriter = new FileWriter("data");
+                    fileWriter.write(user.toString());
+                    fileWriter.flush();
+                } catch (IOException e) {
+                    throw new RuntimeException(e);
+                }
             }
             System.out.println("add user to list? y/n");
         }
