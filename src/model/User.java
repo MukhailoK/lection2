@@ -1,44 +1,43 @@
 package model;
 
 public class User {
+    private Long id;
     private String name;
     private String email;
-    private static final String EMAIL_PATTERN = "^(.+)@(\\S+)$";
 
-    @Override
-    public String toString() {
-        return "User{" +
-                "name='" + name + '\'' +
-                ", email='" + email + '\'' +
-                '}';
+    public User(String name, String email) {
+        this.name = name;
+        this.email = email;
+    }
+
+    public User(Long id, String name, String email) {
+        this.id = id;
+        this.name = name;
+        this.email = email;
     }
 
     public String getName() {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public String getEmail() {
         return email;
     }
 
-    public boolean setEmail(String email) {
-        if (email.matches(EMAIL_PATTERN)) {
-            this.email = email;
-            return true;
-        }
-        return false;
-
+    public void setId(Long id) {
+        this.id = id;
     }
 
-    public User() {
+    public Long getId() {
+        return id;
     }
 
-    public User(String name, String email) {
-        this.name = name;
-        this.email = email;
+    @Override
+    public String toString() {
+        return "model.User{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", email='" + email + '\'' +
+                '}';
     }
 }

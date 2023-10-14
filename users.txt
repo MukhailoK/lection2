@@ -1,0 +1,6 @@
+1;user;user@sdff.sdf
+1;user;usr.@sdf.sdf
+2;endy;user@mail.com1
+3;sdfsd;sdfsdf@sdfs.sdf
+1;admin;admin@mail.com
+2;ad;ad@asd
