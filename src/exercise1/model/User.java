@@ -1,4 +1,4 @@
-package model;
+package exercise1.model;
 
 public class User {
     private Long id;
@@ -34,7 +34,7 @@ public class User {
 
     @Override
     public String toString() {
-        return "model.User{" +
+        return "exercise1.model.User{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", email='" + email + '\'' +

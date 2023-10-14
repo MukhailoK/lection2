@@ -1,6 +1,6 @@
-package repositories;
+package exercise1.repositories;
 
-import model.User;
+import exercise1.model.User;
 
 import java.util.List;
 

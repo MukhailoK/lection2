@@ -1,8 +1,10 @@
-import model.User;
-import repositories.CrudRepository;
-import repositories.UserRepositoryFileImpl;
-import services.UserService;
-import services.serviceImpl.UserServiceImpl;
+package exercise1;
+
+import exercise1.model.User;
+import exercise1.repositories.CrudRepository;
+import exercise1.repositories.UserRepositoryFileImpl;
+import exercise1.services.UserService;
+import exercise1.services.serviceImpl.UserServiceImpl;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;

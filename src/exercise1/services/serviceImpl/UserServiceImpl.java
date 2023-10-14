@@ -1,8 +1,8 @@
-package services.serviceImpl;
+package exercise1.services.serviceImpl;
 
-import model.User;
-import repositories.CrudRepository;
-import services.UserService;
+import exercise1.model.User;
+import exercise1.repositories.CrudRepository;
+import exercise1.services.UserService;
 
 import java.util.ArrayList;
 import java.util.List;

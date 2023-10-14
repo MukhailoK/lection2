@@ -1,9 +1,8 @@
-package repositories;
+package exercise1.repositories;
 
-import model.User;
+import exercise1.model.User;
 
 import java.io.*;
-import java.util.ArrayList;
 import java.util.List;
 
 public class UserRepositoryFileImpl implements CrudRepository {

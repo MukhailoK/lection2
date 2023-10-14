@@ -1,6 +1,6 @@
-package services;
+package exercise1.services;
 
-import model.User;
+import exercise1.model.User;
 
 import java.util.List;
 
